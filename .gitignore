@@ -1,0 +1,8 @@
+/target/
+/mvnw
+/mvnw.cmd
+/ssb-java-1.1.1.jar
+/.mvn/
+/.settings/
+/.classpath
+/.project
