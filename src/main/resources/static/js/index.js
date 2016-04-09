@@ -1,6 +1,11 @@
 $(document)
   .ready(
     function() {
+
+	    if (window.location.protocol === "https:") {
+		    window.location.protocol = "http";
+	    }
+
 	    // map
 	    var geoJson;
 	    var map;
