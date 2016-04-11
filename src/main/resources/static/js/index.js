@@ -89,14 +89,12 @@ $(document)
 			    layer.bringToFront();
 		    }
 
-		    // info.update(layer.feature);
 		    updateVariableInfo(layer.feature);
 	    }
 
 	    function resetHighlight(e) {
 		    geoJson.resetStyle(e.target);
 		    updateVariableInfo();
-		    // info.update();
 	    }
 	    // end map events
 
@@ -114,7 +112,6 @@ $(document)
 	    }
 
 	    function displayMap() {
-		    var mapboxAccessToken = "pk.eyJ1IjoibGF1cmVudC10aHV5IiwiYSI6ImNpZnRqcHVteTAxdzRzdG0wenk1emg5am4ifQ.Je6mSQva4zGSgm0bVzJ91w";
 		    map = L.map('chloro', {
 		     zoomControl : false,
 		     dragging : false,
